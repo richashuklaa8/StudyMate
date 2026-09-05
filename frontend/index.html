@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyMate - AI Study Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <div class="logo">🎓 StudyMate</div>
+            <p>Your AI-powered study assistant</p>
+        </header>
+
+        <main>
+
+            <div class="hero">
+                <h1>Turn your notes into<br><span>smart study material.</span></h1>
+
+                <p>
+                    Upload your PDF notes and let StudyMate create
+                    easy-to-understand summaries for you.
+                </p>
+            </div>
+
+            <div class="upload-box">
+
+                <div class="upload-icon">📄</div>
+
+                <h2>Upload your study material</h2>
+
+                <p>Choose a PDF file to get started</p>
+
+                <input type="file" id="pdfFile" accept=".pdf">
+
+                <label for="pdfFile" class="upload-button">
+                    Choose PDF
+                </label>
+
+                <p id="fileName">No file selected</p>
+
+                <button id="summarizeBtn">
+                    ✨ Generate Summary
+                </button>
+
+            </div>
+
+            <div class="result-box">
+
+                <h2>🧠 Your AI Summary</h2>
+
+                <div id="summary">
+                    Your summary will appear here...
+                </div>
+
+            </div>
+
+        </main>
+
+        <footer>
+            <p>Made with ❤️ using Python + Gemini AI</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
