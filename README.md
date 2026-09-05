@@ -1,4 +1,4 @@
-# 🎓 StudyMate — AI Study Assistant
+# 🎓 StudyMate - AI Study Assistant
 
 StudyMate is an AI-powered study assistant that converts PDF study notes into clear, structured, and revision-friendly summaries using Google Gemini AI.
 
