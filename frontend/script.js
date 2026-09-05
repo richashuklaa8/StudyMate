@@ -43,7 +43,7 @@ summarizeBtn.addEventListener("click", async () => {
 
         // Send PDF to Flask backend
         const response = await fetch(
-            "http://127.0.0.1:5000/summarize",
+            "https://studymate-05kf.onrender.com/summarize",git add frontend/script.js,
             {
                 method: "POST",
                 body: formData
